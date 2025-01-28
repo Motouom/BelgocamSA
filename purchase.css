@@ -1,0 +1,63 @@
+#purchase-list {
+  list-style-type: decimal;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+#purchase-list li {
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 8px 0;
+}
+
+button {
+  background-color: #ef4444;
+  color: white;
+  padding: 15px;
+  width: 50%;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #dc2626;
+}
+
+input[type="tel"], input[type="char"] {
+  width: 100%;
+  padding: 12px;
+  padding-top: 16px;
+  font-size: 16px;
+  margin-top: 8px;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  background-color: #f9fafb;
+}
+
+input[type="tel"]:focus, input[type="char"]:focus {
+  border-color: #ef4444;
+  outline: none;
+  background-color: #fff;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.my-6 {
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer .mkdocs-footer {
+    display: none;
+}
