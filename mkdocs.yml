@@ -1,0 +1,41 @@
+site_name: Belgocam
+site_url: https://sitename.example
+
+theme:
+  name: 'material'
+  font:
+    text: Merriweather
+    code: Red Hat Mono
+  palette: 
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: red
+      accent: blue
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+  features:
+    - navigation.tabs 
+    - navigation.tabs.sticky 
+
+nav:
+  - Home: index.md
+  - Products: products.md
+  - Services: services.md
+  - Contact: contact.md
+  - My Purchases: purchase.md 
+
+extra_css:
+  - main.css
+  - purchase.css
+
+extra_javascript:
+  - assets/js/custom.js
+
+extra:
+  generator: false
